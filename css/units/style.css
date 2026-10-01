@@ -1,0 +1,96 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+.box{
+    /* width: 10%;
+    height: 10%;   
+    width: 500px;
+    height: 500px;
+    background-color: rgb(238, 45, 15);
+    font-size: 30px; 
+}
+.box1{
+    width: 20rem;
+    height: 20rem;
+    background-color:blue;
+}
+.box1:hover{
+    width: 25rem;
+    height: 25rem;
+    transition: .2s ease;
+}
+a{
+    text-decoration: none;
+    font-size: 50px;
+    color: tomato;
+    position: relative;
+}
+a::before{
+    content:"Vanshika";
+    width: 0%;
+    height: 3px;
+    background-color: black;
+    position: absolute;
+    bottom: 0px;
+    transition: all .5s ease;
+
+}
+a:hover::after{
+    content: "Bansal";
+    width: 70%;
+}
+input{
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+}
+input:focus{
+    background-color:lightblue;
+}
+a:active{
+    color: black; */
+/* } */
+.box3{
+    width: 100%;
+    height: 100%;
+    background-color: aquamarine;
+}
+
+.box3>div{
+width: 100%;
+height: 20%;
+background-color: red;
+border: 2px solid black;
+}
+/* h1+p{     
+    color: lightblue;
+} */
+h1~p{    
+    font-size: 40px;
+    color: brown;
+}
+/* h1~p,h1{    
+    font-size: 40px;
+    color: brown;
+} */
+ /* li:nth-child(3)
+ {
+    color: blueviolet;
+    font-size: 30px;
+ } */
+ li:nth-child(even)  /*odd*/
+ {
+    color: blueviolet;
+    font-size: 30px;
+ }
+ .eg1:has(a){
+    color: aquamarine;
+    text-decoration: none;
+    font-size: 40px;
+ }
