@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.box {
+    width: 100%;
+    height: 600px;
+    background-color: rgb(225, 88, 200);
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Target all child divs inside .box to give them a base size */
+.box > div {
+    width: 200px;
+    height: 200px;
+}
+
+/* Give each box its own distinct color */
+.box1 { background-color: red; }
+.box2 { background-color: blue; }
+.box3 { background-color: green; }
+.box4 { background-color: orange; }
