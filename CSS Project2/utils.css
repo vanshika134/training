@@ -1,0 +1,15 @@
+.flex{
+    display: flex;
+}
+.align-center{
+    align-items: center;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.width-overlay{
+    width: 90%;
+}
+.margin-auto{
+    margin: auto;
+}

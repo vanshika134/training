@@ -1,0 +1,36 @@
+*{
+    margin : 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box
+{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(218, 18, 62);
+    transition: all 1s ease ;
+    /* transform: top left; */
+    /* transform: top right; */
+    transform-origin: top left ;
+}
+.box:hover{
+    /* transform: translateX(200px, 200px); */
+    /* transform: translateX(-200px); */
+    /* transform: translateX(200px); */
+    /* transform: translateX(200px) translateY(200px); */
+    /* transform: translateZ(200px);  */
+    /* transform: rotateX(90deg); */
+    /* transform: rotateY(90deg); */
+    /* transform: rotateY(30deg) rotateY(700deg); */
+    /* transform: rotateY(30deg) rotateX(700deg); */
+    transform:rotate(90deg);
+}
